@@ -1,4 +1,5 @@
 -- Characters in Box name change
+if BoxAlreadyChanged ~= true then
 for i,v in pairs(game:GetService("Workspace").Box:GetChildren()) do
 for i2,v2 in pairs(v:GetChildren()) do
 CharBoxCounter = 0
@@ -6,6 +7,8 @@ CharBoxCounter = 0
     v.Name = v.Name..CharBoxCounter
     end
 end
+end
+getgenv().BoxAlreadyChanged = true
 end
 
 --------------- [Donate Character Section] ---------------
