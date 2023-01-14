@@ -1,0 +1,108 @@
+-- Characters in Box name change
+for i,v in pairs(game:GetService("Workspace").Box:GetChildren()) do
+for i2,v2 in pairs(v:GetChildren()) do
+CharBoxCounter = 0
+    if v2.Name == "Rigged Morph Template" or v2.Name == "Head" then
+    v.Name = v.Name..CharBoxCounter
+    end
+end
+end
+
+--------------- [Donate Character Section] ---------------
+function ShadowSans()
+local character = game:GetService("Workspace").GamepassCharacter.ShadowSans.Head
+firetouchinterest(game.Players.LocalPlayer.Character.HumanoidRootPart, character, 0)
+wait()
+firetouchinterest(game.Players.LocalPlayer.Character.HumanoidRootPart, character, 1)
+end
+
+function ShadowCorruptedBFSans()
+local character = game:GetService("Workspace").GamepassCharacter.ShadowSansCorruptedSkin.Head
+firetouchinterest(game.Players.LocalPlayer.Character.HumanoidRootPart, character, 0)
+wait()
+firetouchinterest(game.Players.LocalPlayer.Character.HumanoidRootPart, character, 1)
+end
+
+function EvoDustLowLvlSans()
+local character = game:GetService("Workspace").GamepassCharacter.Gamepass.DustSanslowlv.Head
+firetouchinterest(game.Players.LocalPlayer.Character.HumanoidRootPart, character, 0)
+wait()
+firetouchinterest(game.Players.LocalPlayer.Character.HumanoidRootPart, character, 1)
+end
+
+function EvoDustSnowdinSans()
+local character = game:GetService("Workspace").GamepassCharacter.Gamepass.SnowdinDustsans.Head
+firetouchinterest(game.Players.LocalPlayer.Character.HumanoidRootPart, character, 0)
+wait()
+firetouchinterest(game.Players.LocalPlayer.Character.HumanoidRootPart, character, 1)
+end
+
+function EvoDustWaterFallSans()
+local character = game:GetService("Workspace").GamepassCharacter.Gamepass.WaterFallDustSans.Head
+firetouchinterest(game.Players.LocalPlayer.Character.HumanoidRootPart, character, 0)
+wait()
+firetouchinterest(game.Players.LocalPlayer.Character.HumanoidRootPart, character, 1)
+end
+
+function EvoDustHotlandSans()
+local character = game:GetService("Workspace").GamepassCharacter.Gamepass.DustSansHotland.Head
+firetouchinterest(game.Players.LocalPlayer.Character.HumanoidRootPart, character, 0)
+wait()
+firetouchinterest(game.Players.LocalPlayer.Character.HumanoidRootPart, character, 1)
+end
+
+function EvoDustLvl20Sans()
+local character = game:GetService("Workspace").GamepassCharacter.Gamepass.DustSansLv20.Head
+firetouchinterest(game.Players.LocalPlayer.Character.HumanoidRootPart, character, 0)
+wait()
+firetouchinterest(game.Players.LocalPlayer.Character.HumanoidRootPart, character, 1)
+end
+
+function AlphaCorrupted()
+local character = game:GetService("Workspace").GamepassCharacter.AlphaCorrupted.Head
+firetouchinterest(game.Players.LocalPlayer.Character.HumanoidRootPart, character, 0)
+wait()
+firetouchinterest(game.Players.LocalPlayer.Character.HumanoidRootPart, character, 1)
+end
+
+function Alpha404Sans()
+local character = game:GetService("Workspace").GamepassCharacter.Alpha404Sans.Head
+firetouchinterest(game.Players.LocalPlayer.Character.HumanoidRootPart, character, 0)
+wait()
+firetouchinterest(game.Players.LocalPlayer.Character.HumanoidRootPart, character, 1)
+end
+
+function VantaBlackSans()
+local character = game:GetService("Workspace").Character.VantaBlackSans.Head
+firetouchinterest(game.Players.LocalPlayer.Character.HumanoidRootPart, character, 0)
+wait()
+firetouchinterest(game.Players.LocalPlayer.Character.HumanoidRootPart, character, 1)
+end
+
+function DemonLordVantaBlackSans()
+local character = game:GetService("Workspace").Character.VantaBlackSansDemonLOrd.Head
+firetouchinterest(game.Players.LocalPlayer.Character.HumanoidRootPart, character, 0)
+wait()
+firetouchinterest(game.Players.LocalPlayer.Character.HumanoidRootPart, character, 1)
+end
+
+function LOADINGSans()
+local character = game:GetService("Workspace").GamepassCharacter.LoadingSans.Head
+firetouchinterest(game.Players.LocalPlayer.Character.HumanoidRootPart, character, 0)
+wait()
+firetouchinterest(game.Players.LocalPlayer.Character.HumanoidRootPart, character, 1)
+end
+
+function LOADINGOneeSanFromBlack()
+local character = game:GetService("Workspace").Box.LoadingSansGirlVersion0["Rigged Morph Template"].Button
+firetouchinterest(game.Players.LocalPlayer.Character.HumanoidRootPart, character, 0)
+wait()
+firetouchinterest(game.Players.LocalPlayer.Character.HumanoidRootPart, character, 1)
+end
+
+function LOADINGOneeSanFromWhite()
+local character = game:GetService("Workspace").Box.LoadingSansGirlVersion1["Rigged Morph Template"].Button
+firetouchinterest(game.Players.LocalPlayer.Character.HumanoidRootPart, character, 0)
+wait()
+firetouchinterest(game.Players.LocalPlayer.Character.HumanoidRootPart, character, 1)
+end
