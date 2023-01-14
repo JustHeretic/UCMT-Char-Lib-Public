@@ -12,7 +12,7 @@ getgenv().BoxAlreadyChanged = true
 end
 
 --------------- [Donate Character Section] ---------------
-function ShadowSans()
+function getgenv().ShadowSans()
 local character = game:GetService("Workspace").GamepassCharacter.ShadowSans.Head
 firetouchinterest(game.Players.LocalPlayer.Character.HumanoidRootPart, character, 0)
 wait()
