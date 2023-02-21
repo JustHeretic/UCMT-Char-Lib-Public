@@ -8,6 +8,14 @@ CharBoxCounter = 0
     end
 end
 end
+for i3,v3 in pairs(game:GetService("Workspace").Character:GetChildren()) do
+for i4,v4 in pairs(v3:GetChildren()) do
+CharBoxCounter = 0
+    if v4.Name == "Rigged Morph Template" or v4.Name == "Head" then
+    v3.Name = v3.Name..CharBoxCounter
+    end
+end
+end
 getgenv().BoxAlreadyChanged = true
 end
 
@@ -67,13 +75,13 @@ firetouchinterest(game.Players.LocalPlayer.Character.HumanoidRootPart, character
 end
 
 function VantaBlackSans()
-local character = game:GetService("Workspace").Character.VantaBlackSans.Head
+local character = game:GetService("Workspace").Character.VantaBlackSans0.Head
 firetouchinterest(game.Players.LocalPlayer.Character.HumanoidRootPart, character, 0)
 firetouchinterest(game.Players.LocalPlayer.Character.HumanoidRootPart, character, 1)
 end
 
 function DemonLordVantaBlackSans()
-local character = game:GetService("Workspace").Character.VantaBlackSansDemonLOrd.Head
+local character = game:GetService("Workspace").Character.VantaBlackSansDemonLOrd0.Head
 firetouchinterest(game.Players.LocalPlayer.Character.HumanoidRootPart, character, 0)
 firetouchinterest(game.Players.LocalPlayer.Character.HumanoidRootPart, character, 1)
 end
@@ -91,7 +99,7 @@ firetouchinterest(game.Players.LocalPlayer.Character.HumanoidRootPart, character
 end
 
 function LOADINGOneeSanFromWhite()
-local character = game:GetService("Workspace").Box.LoadingSansGirlVersion1["Rigged Morph Template"].Button
+local character = game:GetService("Workspace").Box.LoadingSansGirlVersion0["Rigged Morph Template"].Button
 firetouchinterest(game.Players.LocalPlayer.Character.HumanoidRootPart, character, 0)
 firetouchinterest(game.Players.LocalPlayer.Character.HumanoidRootPart, character, 1)
 end
@@ -100,188 +108,192 @@ end
 function NekoXmasFrisk()
 local character = game:GetService("Workspace").Box.NekoChrismasFrisk0["Rigged Morph Template"].Button
 firetouchinterest(game.Players.LocalPlayer.Character.HumanoidRootPart, character, 0)
-wait()
 firetouchinterest(game.Players.LocalPlayer.Character.HumanoidRootPart, character, 1)
 end
 
 function FreakHorrorSans()
 local character = game:GetService("Workspace").Box.FreakHorrorsans0.Head
 firetouchinterest(game.Players.LocalPlayer.Character.HumanoidRootPart, character, 0)
-wait()
 firetouchinterest(game.Players.LocalPlayer.Character.HumanoidRootPart, character, 1)
 end
 
 function DustDustFrostBiteSans()
 local character = game:GetService("Workspace").Box.FrostBiteDustSans0.Head
 firetouchinterest(game.Players.LocalPlayer.Character.HumanoidRootPart, character, 0)
-wait()
 firetouchinterest(game.Players.LocalPlayer.Character.HumanoidRootPart, character, 1)
 end
 
 function FrostKillerSans()
 local character = game:GetService("Workspace").Box.FrostBiteKiller0.Head
 firetouchinterest(game.Players.LocalPlayer.Character.HumanoidRootPart, character, 0)
-wait()
 firetouchinterest(game.Players.LocalPlayer.Character.HumanoidRootPart, character, 1)
 end
 
 function CurseDevilandGunDevil()
 local character = game:GetService("Workspace").Box.Aki0.Head
 firetouchinterest(game.Players.LocalPlayer.Character.HumanoidRootPart, character, 0)
-wait()
 firetouchinterest(game.Players.LocalPlayer.Character.HumanoidRootPart, character, 1)
 end
 
 function AlterReaperToriael()
-local character = game:GetService("Workspace").Character.AlterReaperToriel.Head
+local character = game:GetService("Workspace").Character.AlterReaperToriel0.Head
 firetouchinterest(game.Players.LocalPlayer.Character.HumanoidRootPart, character, 0)
-wait()
 firetouchinterest(game.Players.LocalPlayer.Character.HumanoidRootPart, character, 1)
 end
 
 function ReaperSans()
-local character = game:GetService("Workspace").Character.ReaperSans.Head
+local character = game:GetService("Workspace").Character.ReaperSans0.Head
 firetouchinterest(game.Players.LocalPlayer.Character.HumanoidRootPart, character, 0)
-wait()
 firetouchinterest(game.Players.LocalPlayer.Character.HumanoidRootPart, character, 1)
 end
 
 function DustTrustSkeletalDragon()
-local character = game:GetService("Workspace").Character.DusttrustPhase4DragonSkeleton["Rigged Morph Template"].Button
+local character = game:GetService("Workspace").Character.DusttrustPhase4DragonSkeleton0["Rigged Morph Template"].Button
 firetouchinterest(game.Players.LocalPlayer.Character.HumanoidRootPart, character, 0)
-wait()
 firetouchinterest(game.Players.LocalPlayer.Character.HumanoidRootPart, character, 1)
 end
 
 function DustDustSans()
-local character = game:GetService("Workspace").Character.DustDustSans.Head
+local character = game:GetService("Workspace").Character.DustDustSans0.Head
 firetouchinterest(game.Players.LocalPlayer.Character.HumanoidRootPart, character, 0)
-wait()
 firetouchinterest(game.Players.LocalPlayer.Character.HumanoidRootPart, character, 1)
 end
 
 function GTCharaNightmoon()
-local character = game:GetService("Workspace").Character.GlitchtaleCharaNightMoon.Head
+local character = game:GetService("Workspace").Character.GlitchtaleCharaNightMoon0.Head
 firetouchinterest(game.Players.LocalPlayer.Character.HumanoidRootPart, character, 0)
-wait()
 firetouchinterest(game.Players.LocalPlayer.Character.HumanoidRootPart, character, 1)
 end
 
 function GTFriskDarkKnight()
-local character = game:GetService("Workspace").Character.GlitchtaleFriskDarkKnight.Head
+local character = game:GetService("Workspace").Character.GlitchtaleFriskDarkKnight0.Head
 firetouchinterest(game.Players.LocalPlayer.Character.HumanoidRootPart, character, 0)
-wait()
 firetouchinterest(game.Players.LocalPlayer.Character.HumanoidRootPart, character, 1)
 end
 
 function HeadlessSans()
-local character = game:GetService("Workspace").Character.HeadlessSans.Head
+local character = game:GetService("Workspace").Character.HeadlessSans0.Head
 firetouchinterest(game.Players.LocalPlayer.Character.HumanoidRootPart, character, 0)
-wait()
 firetouchinterest(game.Players.LocalPlayer.Character.HumanoidRootPart, character, 1)
 end
 
 function TuHaoDemonFrom()
-local character = game:GetService("Workspace").Character.HutaoDemonFrom.Head
+local character = game:GetService("Workspace").Character.HutaoDemonFrom0.Head
 firetouchinterest(game.Players.LocalPlayer.Character.HumanoidRootPart, character, 0)
-wait()
 firetouchinterest(game.Players.LocalPlayer.Character.HumanoidRootPart, character, 1)
 end
 
 function NighterrorSans()
-local character = game:GetService("Workspace").Character.NightErrorSans["Rigged Morph Template"].Button
+local character = game:GetService("Workspace").Character.NightErrorSans0["Rigged Morph Template"].Button
 firetouchinterest(game.Players.LocalPlayer.Character.HumanoidRootPart, character, 0)
-wait()
 firetouchinterest(game.Players.LocalPlayer.Character.HumanoidRootPart, character, 1)
 end
 
 function CoreFriskTheCoreDemon()
-local character = game:GetService("Workspace").Character.CorefriskDemonCore.Head
+local character = game:GetService("Workspace").Character.CorefriskDemonCore0.Head
 firetouchinterest(game.Players.LocalPlayer.Character.HumanoidRootPart, character, 0)
-wait()
 firetouchinterest(game.Players.LocalPlayer.Character.HumanoidRootPart, character, 1)
 end
 
 function Ella()
-local character = game:GetService("Workspace").Character.Ella["Rigged Morph Template"].Button
+local character = game:GetService("Workspace").Character.Ella0["Rigged Morph Template"].Button
 firetouchinterest(game.Players.LocalPlayer.Character.HumanoidRootPart, character, 0)
-wait()
 firetouchinterest(game.Players.LocalPlayer.Character.HumanoidRootPart, character, 1)
 end
 
 function PlayerWhiteDustFlower()
-local character = game:GetService("Workspace").Character.PlayerWhiteDustFlower["Rigged Morph Template"].Button
+local character = game:GetService("Workspace").Character.PlayerWhiteDustFlower0["Rigged Morph Template"].Button
 firetouchinterest(game.Players.LocalPlayer.Character.HumanoidRootPart, character, 0)
-wait()
 firetouchinterest(game.Players.LocalPlayer.Character.HumanoidRootPart, character, 1)
 end
 
 function FlowerFellFriskRedFlower()
-local character = game:GetService("Workspace").Character.FlowerfellFriskSkin["Rigged Morph Template"].Button
+local character = game:GetService("Workspace").Character.FlowerfellFriskSkin0["Rigged Morph Template"].Button
 firetouchinterest(game.Players.LocalPlayer.Character.HumanoidRootPart, character, 0)
-wait()
 firetouchinterest(game.Players.LocalPlayer.Character.HumanoidRootPart, character, 1)
 end
 
 function NeutralFriskBLOOD()
-local character = game:GetService("Workspace").Character.neutralfriskBloodRose["Rigged Morph Template"].Button
+local character = game:GetService("Workspace").Character.neutralfriskBloodRose0["Rigged Morph Template"].Button
 firetouchinterest(game.Players.LocalPlayer.Character.HumanoidRootPart, character, 0)
-wait()
 firetouchinterest(game.Players.LocalPlayer.Character.HumanoidRootPart, character, 1)
 end
 
 function Pekora()
-local character = game:GetService("Workspace").Character.Pekora.Head
+local character = game:GetService("Workspace").Character.Pekora0.Head
 firetouchinterest(game.Players.LocalPlayer.Character.HumanoidRootPart, character, 0)
-wait()
 firetouchinterest(game.Players.LocalPlayer.Character.HumanoidRootPart, character, 1)
 end
 
 function TuHao()
-local character = game:GetService("Workspace").Character.Hutao.Head
+local character = game:GetService("Workspace").Character.Hutao0.Head
 firetouchinterest(game.Players.LocalPlayer.Character.HumanoidRootPart, character, 0)
-wait()
 firetouchinterest(game.Players.LocalPlayer.Character.HumanoidRootPart, character, 1)
 end
 
 function NekoFrisk()
-local character = game:GetService("Workspace").Character.NekoFrisk["Rigged Morph Template"].Button
+local character = game:GetService("Workspace").Character.NekoFrisk0["Rigged Morph Template"].Button
 firetouchinterest(game.Players.LocalPlayer.Character.HumanoidRootPart, character, 0)
-wait()
 firetouchinterest(game.Players.LocalPlayer.Character.HumanoidRootPart, character, 1)
 end
 
 function NekoChara()
-local character = game:GetService("Workspace").Character.NekoChara["Rigged Morph Template"].Button
+local character = game:GetService("Workspace").Character.NekoChara0["Rigged Morph Template"].Button
 firetouchinterest(game.Players.LocalPlayer.Character.HumanoidRootPart, character, 0)
-wait()
 firetouchinterest(game.Players.LocalPlayer.Character.HumanoidRootPart, character, 1)
 end
 
 function WinterChara()
-local character = game:GetService("Workspace").Character.WinterChara["Rigged Morph Template"].Button
+local character = game:GetService("Workspace").Character.WinterChara0["Rigged Morph Template"].Button
 firetouchinterest(game.Players.LocalPlayer.Character.HumanoidRootPart, character, 0)
-wait()
 firetouchinterest(game.Players.LocalPlayer.Character.HumanoidRootPart, character, 1)
 end
 
 function ChrismasSans()
-local character = game:GetService("Workspace").Character.ChrismasSans["Rigged Morph Template"].Button
+local character = game:GetService("Workspace").Character.ChrismasSans0["Rigged Morph Template"].Button
 firetouchinterest(game.Players.LocalPlayer.Character.HumanoidRootPart, character, 0)
-wait()
 firetouchinterest(game.Players.LocalPlayer.Character.HumanoidRootPart, character, 1)
 end
 
 function NeutralFriskIceDemonGirl()
-local character = game:GetService("Workspace").Character.IceDemonGirl["Rigged Morph Template"].Button
+local character = game:GetService("Workspace").Character.IceDemonGirl0["Rigged Morph Template"].Button
 firetouchinterest(game.Players.LocalPlayer.Character.HumanoidRootPart, character, 0)
-wait()
 firetouchinterest(game.Players.LocalPlayer.Character.HumanoidRootPart, character, 1)
 end
 
 function EpicMuffetCottonCookie()
-local character = game:GetService("Workspace").Character.CottonCookie["Rigged Morph Template"].Button
+local character = game:GetService("Workspace").Character.CottonCookie0["Rigged Morph Template"].Button
 firetouchinterest(game.Players.LocalPlayer.Character.HumanoidRootPart, character, 0)
-wait()
+firetouchinterest(game.Players.LocalPlayer.Character.HumanoidRootPart, character, 1)
+end
+
+--------------- [Normal Character Section] ---------------
+function ErrorSansV2GirlVersion()
+local character = game:GetService("Workspace").Character.ErrorSansGirlVersion0.Head
+firetouchinterest(game.Players.LocalPlayer.Character.HumanoidRootPart, character, 0)
+firetouchinterest(game.Players.LocalPlayer.Character.HumanoidRootPart, character, 1)
+end
+
+function ErrorSansV2ButItsYou()
+local character = game:GetService("Workspace").Character.ErrorSansV2ButIsyou0["Rigged Morph Template"].Button
+firetouchinterest(game.Players.LocalPlayer.Character.HumanoidRootPart, character, 0)
+firetouchinterest(game.Players.LocalPlayer.Character.HumanoidRootPart, character, 1)
+end
+
+function ErrorSansV2()
+local character = game:GetService("Workspace").Character.ErrorSansV20["Rigged Morph Template"].Button
+firetouchinterest(game.Players.LocalPlayer.Character.HumanoidRootPart, character, 0)
+firetouchinterest(game.Players.LocalPlayer.Character.HumanoidRootPart, character, 1)
+end
+
+function SubX()
+local character = game:GetService("Workspace").Character.SubX0.Head
+firetouchinterest(game.Players.LocalPlayer.Character.HumanoidRootPart, character, 0)
+firetouchinterest(game.Players.LocalPlayer.Character.HumanoidRootPart, character, 1)
+end
+
+function AlternateFriskEYES()
+local character = game:GetService("Workspace").Character.AlternatefriskSeek0.Head
+firetouchinterest(game.Players.LocalPlayer.Character.HumanoidRootPart, character, 0)
 firetouchinterest(game.Players.LocalPlayer.Character.HumanoidRootPart, character, 1)
 end
